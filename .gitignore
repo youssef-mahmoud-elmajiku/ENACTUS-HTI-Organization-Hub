@@ -1,0 +1,31 @@
+# PHP / Composer
+/vendor/
+composer.phar
+.phpunit.cache/
+.phpunit.result.cache
+
+# Laravel
+.env
+.env.*
+!.env.example
+/storage/*.key
+/storage/framework/cache/**
+/storage/framework/sessions/**
+/storage/framework/views/**
+/storage/logs/*.log
+/bootstrap/cache/*.php
+
+# React / Node
+node_modules/
+dist/
+build/
+.next/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
